@@ -30,3 +30,18 @@ The Bell ontology module of the [Polifonia ontology network](https://github.com/
 
 This ontology makes it possible to describe bells, bell towers and bell ringers.
 It reuses and will extend ArCo ontology network.
+
+## Datasets
+Data about two sets of bells, modelled according to the imported ArCo ontology network, have been published so far:
+- https://w3id.org/arco/resource/MusicHeritage/0700377972-0 (68 triples)
+- https://w3id.org/arco/resource/MusicHeritage/0700377973-0 (68 triples)
+
+Relevant properties describing a set of bells are:
+- arco:numberOfComponents (how many bells are in the church?)
+- a-loc:hasTimeIndexedTypedLocation (are there bells in the church?)
+- a-dd:hasMaterial (which is the material of the bell?)
+- a-cd:hasAuthor / a-cd:hasPreferredAuthor / a-cd:hasAuthorshipAttribution (by whom (by which foundry) were they melted?)
+- a-cd:hasDating (in which year were they melted?)
+- a-dd:hasMeasurementCollection (which is the weight of the bell?, which are the measures of the bell?)
+
+***License***: Attribution-ShareAlike 4.0 International https://creativecommons.org/licenses/by-sa/4.0/
