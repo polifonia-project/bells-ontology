@@ -53,6 +53,23 @@ FILTER(str(?o)='campana')
 }
 ```
 
+- Are there bells in the church/bell tower?
+```
+PREFIX tiapit: <https://w3id.org/italia/onto/TI/>
+PREFIX core: <https://w3id.org/arco/ontology/core/>
+PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
+SELECT DISTINCT ?site ?siteLab ?bell ?desc
+WHERE { ?bell arco:isCulturalPropertyComponentOf ?setofbells ; rdf:type arco:MusicHeritage ;
+a-loc:hasTimeIndexedTypedLocation ?titl ;
+core:description ?desc ;
+dc:subject ?o .
+?titl a-loc:atSite ?site .
+?site rdfs:label ?siteLab
+FILTER(str(?o)='campana')
+}
+```
+
 ## Imported ontologies
 
 ### External Imports
