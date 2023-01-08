@@ -36,6 +36,10 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 ## Examples of SPARQL queries addressed by the module
 - By whom (by which foundry) were the bell(s) melted? When where they melted?
 ```
+PREFIX tiapit: <https://w3id.org/italia/onto/TI/>
+PREFIX core: <https://w3id.org/arco/ontology/core/>
+PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
 SELECT DISTINCT ?bell ?desc ?author ?authorLab ?dating ?datingTime
 WHERE { ?bell arco:isCulturalPropertyComponentOf ?setofbells ; rdf:type arco:MusicHeritage ;
 core:description ?desc ;
