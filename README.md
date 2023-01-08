@@ -29,7 +29,15 @@ The Bell ontology module of the [Polifonia ontology network](https://github.com/
 ## Ontology Description
 
 This ontology makes it possible to describe bells, bell towers and bell ringers.
-It reuses and will extend ArCo ontology network.
+Bells, which are the main subject of this module, are described by means of measurable, intrinsic aspects such as weight, materials, conservation status, as well as properties deriving from interpretation situations, such as authorship attribution, dating, execution techniques, and their related objects (e.g. bibliography).
+The Bell ontology modules reuses and extends the ArCo ontology network.
+
+## Statistics
+Considering that, apart from the definition of some novel classes inside the module (such as Bell, SetOfBells, and BellTower), the BELL module widely relies on the ArCo ontology network, we report here useful statistics of ArCo: 
+- number of classes: 340 
+- number of object properties: 616
+- number of datatype properties: 154
+- number of logical axioms: 3,416
 
 ## Datasets
 Data about two sets of bells, modelled according to the imported ArCo ontology network, have been published so far:
