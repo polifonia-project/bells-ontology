@@ -17,7 +17,7 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 - Are there bells in the church/bell tower? How many bells are in the church/bell tower?
 - Is there a single bell or a poliorganic instrument (a set of bells) in a church/bell tower?
 - By whom (by which foundry) were they melted?
-- In which year were they melted?
+- When were they melted?
 - Which is the material of the bell?
 - Which is the weight of the bell?
 - Which are the measures of the bell?
@@ -32,6 +32,22 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 - Is the sound in a place currently performed by hand or by electric means?
 - How/Using which tools/Using which execution technique(s)/Following which sound practices is the set of bells played, when played manually?
 - What are the recordings involving a bell or set of bells?
+
+## Examples of SPARQL queries addressed by the module
+- By whom (by which foundry) were the bell(s) melted? When where they melted?
+```
+SELECT DISTINCT ?bell ?desc ?author ?authorLab ?dating ?datingTime
+WHERE { ?bell arco:isCulturalPropertyComponentOf ?setofbells ; rdf:type arco:MusicHeritage ;
+core:description ?desc ;
+a-cd:hasDating ?dating ;
+a-cd:hasAuthor ?author ;
+dc:subject ?o .
+?author rdfs:label ?authorLab .
+?dating a-cd:hasDatingEvent ?datingEv .
+?datingEv tiapit:atTime ?datingTime
+FILTER(str(?o)='campana')
+}
+```
 
 ## Imported ontologies
 
