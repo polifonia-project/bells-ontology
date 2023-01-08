@@ -1,36 +1,43 @@
 # Bell
 The Bell ontology module of the [Polifonia ontology network](https://github.com/polifonia-project/ontology-network) represents concepts and relationships to describe bells, bell towers and bell ringers.
 
+## Ontology Description
+
+This ontology makes it possible to describe bells, bell towers and bell ringers.
+Bells, which are the main subject of this module, are described by means of measurable, intrinsic aspects such as weight, materials, conservation status, as well as properties deriving from interpretation situations, such as authorship attribution, dating, execution techniques, and their related objects (e.g. bibliography).
+The Bell ontology modules reuses and extends the ArCo ontology network.
+
+<img width="809" alt="bell-ontology" src="https://user-images.githubusercontent.com/36740200/211186880-37d4c9ec-877e-44ad-bd77-a1e5863d54bb.png">
+
+
 ## Competency questions addressed by this ontology module
 - Where is the building/church/bell tower?
 - When (what year) was the building built?
 - In which context is the building located (urban, periurban...)?
-- Are there bells in the church? How many bells are in the church?
-- Which is the material of the bell?
+- Are there bells in the church/bell tower? How many bells are in the church/bell tower?
+- Is there a single bell or a poliorganic instrument (a set of bells) in a church/bell tower?
 - By whom (by which foundry) were they melted?
 - In which year were they melted?
+- Which is the material of the bell?
 - Which is the weight of the bell?
 - Which are the measures of the bell?
 
 ## Competency questions that will be addressed by this ontology module
+- Is the bell tower associated to a religious building or a civil building?
 - Which is the mounting system of the bell?
 - Which is the nominal/fundamental note of the bell?
 - Which is the extension of the whole set of bells in a bell tower?
 - What kind of execution techniques are possible to perform according to a specific mounting system?
 - Can a set of bells be played electrically, manually, or both?
-- How/Using which tools/Using which execution technique(s) is the set of bells played, when played manually?
-- TO BE COMPLETED
+- Is the sound in a place currently performed by hand or by electric means?
+- How/Using which tools/Using which execution technique(s)/Following which sound practices is the set of bells played, when played manually?
+- What are the recordings involving a bell or set of bells?
 
 ## Imported ontologies
 
 ### External Imports
 - [ArCo Ontology network](https://w3id.org/arco/ontology/arco)
 
-## Ontology Description
-
-This ontology makes it possible to describe bells, bell towers and bell ringers.
-Bells, which are the main subject of this module, are described by means of measurable, intrinsic aspects such as weight, materials, conservation status, as well as properties deriving from interpretation situations, such as authorship attribution, dating, execution techniques, and their related objects (e.g. bibliography).
-The Bell ontology modules reuses and extends the ArCo ontology network.
 
 ## Statistics
 Considering that, apart from the definition of some novel classes inside the module (such as Bell, SetOfBells, and BellTower), the BELL module widely relies on the ArCo ontology network, we report here useful statistics of ArCo: 
