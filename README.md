@@ -70,6 +70,29 @@ FILTER(str(?o)='campana')
 }
 ```
 
+- Which is the weight of the bell?
+```
+PREFIX tiapit: <https://w3id.org/italia/onto/TI/>
+PREFIX muapit: <https://w3id.org/italia/onto/MU/>
+PREFIX core: <https://w3id.org/arco/ontology/core/>
+PREFIX a-cd: <https://w3id.org/arco/ontology/context-description/>
+PREFIX arco: <https://w3id.org/arco/ontology/arco/>
+PREFIX a-dd: <https://w3id.org/arco/ontology/denotative-description/>
+SELECT DISTINCT ?bell ?desc ?m ?mLab ?v ?u ?uLab
+WHERE { ?bell arco:isCulturalPropertyComponentOf ?setofbells ; rdf:type arco:MusicHeritage ;
+a-loc:hasTimeIndexedTypedLocation ?titl ;
+core:description ?desc ;
+a-dd:hasMeasurementCollection ?mc ;
+dc:subject ?o .
+?mc a-dd:hasMeasurement ?m .
+?m a-dd:hasMeasurementType a-dd:Weight .
+?m rdfs:label ?mLab ; a-dd:hasValue ?mVal .
+?mVal muapit:value ?v ; muapit:hasMeasurementUnit ?u .
+?u rdfs:label ?uLab
+FILTER(str(?o)='campana')
+}
+```
+
 ## Imported ontologies
 
 ### External Imports
