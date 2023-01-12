@@ -21,11 +21,65 @@
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/bell/">
         <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/bell/0.0.1"/>
         <owl:imports rdf:resource="https://w3id.org/arco/ontology/arco/1.2"/>
+        <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
         <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <rdfs:comment xml:lang="en">An ontology for modelling bells, bell towers and bell ringers. This ontology imports and extends ArCo ontology network (root module: https://w3id.org/arco/ontology/arco)</rdfs:comment>
         <rdfs:label xml:lang="en">BELL ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
     </owl:Ontology>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/Bell -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/Bell">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/isComponentOf"/>
+                <owl:allValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/bell/SetOfBells"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class represents a bell.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bell</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/BellTower -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/BellTower">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/polifonia/ontology/core/PhysicalSite"/>
+        <rdfs:comment xml:lang="en">This class represents a bell tower, i.e. a vertical structure designed to house a bell or a set of bells, which may be part of a church.</rdfs:comment>
+        <rdfs:label xml:lang="en">Bell tower</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- https://w3id.org/polifonia/ontology/bell/SetOfBells -->
+
+    <owl:Class rdf:about="https://w3id.org/polifonia/ontology/bell/SetOfBells">
+        <rdfs:subClassOf rdf:resource="https://w3id.org/italia/onto/l0/Object"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="https://w3id.org/arco/ontology/core/hasComponent"/>
+                <owl:someValuesFrom rdf:resource="https://w3id.org/polifonia/ontology/bell/Bell"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment xml:lang="en">This class represents a set of bells, i.e. bells that may be hung in a bell tower and that can be played together.</rdfs:comment>
+        <rdfs:label xml:lang="en">Set of bells</rdfs:label>
+    </owl:Class>
 </rdf:RDF>
 
 
