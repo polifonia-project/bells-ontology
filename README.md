@@ -25,12 +25,12 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 - Which is the material of the bell?
 - Which is the weight of the bell?
 - Which are the measures of the bell?
+- Which is the extension of the whole set of bells in a bell tower?
 
 ## Competency questions that will be addressed by this ontology module
 - Is the bell tower associated to a religious building or a civil building?
 - Which is the mounting system of the bell?
 - Which is the nominal/fundamental note of the bell?
-- Which is the extension of the whole set of bells in a bell tower?
 - What kind of execution techniques are possible to perform according to a specific mounting system?
 - Can a set of bells be played electrically, manually, or both?
 - Is the sound in a place currently performed by hand or by electric means?
