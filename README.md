@@ -1,4 +1,4 @@
-# Bell
+# Bells Ontology
 
 [![DOI](https://zenodo.org/badge/424658738.svg)](https://zenodo.org/badge/latestdoi/424658738)
 
@@ -123,4 +123,10 @@ Relevant properties describing a set of bells are:
 - a-cd:hasDating (in which year were they melted?)
 - a-dd:hasMeasurementCollection (which is the weight of the bell?, which are the measures of the bell?)
 
-***License***: Attribution-ShareAlike 4.0 International https://creativecommons.org/licenses/by-sa/4.0/
+## License
+
+This work is licensed under a
+[Creative Commons Attribution 4.0 International License][cc-by].
+
+
+[cc-by]: http://creativecommons.org/licenses/by/4.0/
