@@ -20,8 +20,8 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 - In which context is the building located (urban, periurban...)?
 - Are there bells in the church/bell tower? How many bells are in the church/bell tower?
 - Is there a single bell or a poliorganic instrument (a set of bells) in a church/bell tower?
-- By whom (by which foundry) were they melted?
-- When were they melted?
+- By whom (by which foundry) were they cast?
+- When were they cast?
 - Which is the material of the bell?
 - Which is the weight of the bell?
 - Which are the measures of the bell?
@@ -38,7 +38,7 @@ The Bell ontology modules reuses and extends the ArCo ontology network.
 - What are the recordings involving a bell or set of bells?
 
 ## Examples of SPARQL queries addressed by the module
-- By whom (by which foundry) were the bell(s) melted? When where they melted?
+- By whom (by which foundry) were the bell(s) cast? When where they cast?
 ```
 PREFIX tiapit: <https://w3id.org/italia/onto/TI/>
 PREFIX core: <https://w3id.org/arco/ontology/core/>
