@@ -119,7 +119,7 @@ Relevant properties describing a set of bells are:
 - arco:numberOfComponents (how many bells are in the church?)
 - a-loc:hasTimeIndexedTypedLocation (are there bells in the church?)
 - a-dd:hasMaterial (which is the material of the bell?)
-- a-cd:hasAuthor / a-cd:hasPreferredAuthor / a-cd:hasAuthorshipAttribution (by whom (by which foundry) were they melted?)
+- a-cd:hasAuthor / a-cd:hasPreferredAuthor / a-cd:hasAuthorshipAttribution (by whom (by which foundry) were they cast?)
 - a-cd:hasDating (in which year were they cast?)
 - a-dd:hasMeasurementCollection (which is the weight of the bell?, which are the measures of the bell?)
 
