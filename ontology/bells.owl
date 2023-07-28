@@ -17,14 +17,31 @@
      xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
      xmlns:opla1="http://ontologydesignpatterns.org/opla/"
      xmlns:terms="http://purl.org/dc/terms/"
+     xmlns:cc="http://creativecommons.org/ns#"
+     xmlns:vann="http://purl.org/vocab/vann/"
      xmlns:catalogue="https://w3id.org/arco/ontology/catalogue/">
+     
     <owl:Ontology rdf:about="https://w3id.org/polifonia/ontology/bell/">
+        <rdf:type rdf:resource="http://purl.org/vocab/vann/Vocabulary"/>
         <owl:versionIRI rdf:resource="https://w3id.org/polifonia/ontology/bell/0.0.1"/>
         <owl:imports rdf:resource="https://w3id.org/arco/ontology/arco/1.2"/>
         <owl:imports rdf:resource="https://w3id.org/polifonia/ontology/core/0.1"/>
-        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
         <rdfs:comment xml:lang="en">An ontology for modelling bells, bell towers and bell ringers. This ontology imports and extends ArCo ontology network (root module: https://w3id.org/arco/ontology/arco)</rdfs:comment>
         <rdfs:label xml:lang="en">BELL ontology</rdfs:label>
+        <cc:licence rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:license rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:creator xml:lang="en">Valentina Carriero</terms:creator>
+        <terms:creator xml:lang="en">Elena Musumeci</terms:creator>
+        <terms:creator xml:lang="en">Fiorela Ciroku</terms:creator>
+        <terms:description xml:lang="en">An ontology for modelling bells, bell towers and bell ringers. This ontology imports and extends ArCo ontology network (root module: https://w3id.org/arco/ontology/arco)</terms:description>
+        <terms:issued xml:lang="en">20/07/2023</terms:issued>
+        <terms:modified xml:lang="en">28/07/2023</terms:modified>
+        <terms:rights rdf:resource="https://creativecommons.org/licenses/by-sa/4.0/"/>
+        <terms:title xml:lang="en">Music Representation Ontology</terms:title>
+        <vann:preferredNamespacePrefix>bells:</vann:preferredNamespacePrefix>
+        <vann:preferredNamespaceUri rdf:resource="https://w3id.org/polifonia/ontology/bells-ontology/"/>
+        <rdfs:isDefinedBy xml:lang="en">Polifonia Ontology Network</rdfs:isDefinedBy>
+        <rdfs:label xml:lang="en">Bells Ontology</rdfs:label>
         <owl:versionInfo>0.0.1</owl:versionInfo>
     </owl:Ontology>
     
