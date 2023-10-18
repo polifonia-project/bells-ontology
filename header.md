@@ -3,7 +3,7 @@ component-id: https://w3id.org/polifonia/ontology/bells-ontology/
 type: Ontology
 name: Bells Ontology
 description: The Bell ontology represents concepts and relationships to describe bells, bell towers and bell ringers.
-image: diagrams/bells.png
+image: https://github.com/polifonia-project/bells-ontology/blob/main/diagrams/bells.png
 work-package:
 - WP2
 pilot:
