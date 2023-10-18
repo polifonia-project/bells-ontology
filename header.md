@@ -23,12 +23,12 @@ contributors:
 - Elena Musumeci <https://github.com/elenamusumeci>
 - Fiorela Ciroku <https://github.com/FiorelaCiroku>
 related-components:
-  - reuses:  
+  reuses:  
     - "ArCo Ontology https://w3id.org/arco/ontology/arco"
-  - extends: 
-  - story:
-  - persona:
-  - documentation:
+  extends: 
+  story:
+  persona:
+  documentation:
 bibliography:
 - main-publication:
 - publication:
