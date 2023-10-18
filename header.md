@@ -23,12 +23,15 @@ contributors:
 - Elena Musumeci <https://github.com/elenamusumeci>
 - Fiorela Ciroku <https://github.com/FiorelaCiroku>
 related-components:
-  reuses:  
-    - "ArCo Ontology https://w3id.org/arco/ontology/arco"
-  extends: 
-  story:
-  persona:
-  documentation:
+- reuses:  
+  - "ArCo Ontology https://w3id.org/arco/ontology/arco"
+  - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
+- extends:
+  - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
+- story:
+  - Keoma#1_RestorationAndSoundPractices
+- persona:
+  - Keoma_Architect
 bibliography:
 - main-publication:
 - publication:
