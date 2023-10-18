@@ -24,18 +24,15 @@ contributors:
 - Fiorela Ciroku <https://github.com/FiorelaCiroku>
 related-components:
 - reuses:  
-  - "ArCo Ontology https://w3id.org/arco/ontology/arco"
+  - "ArCo ontology network https://w3id.org/arco/ontology/arco"
   - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
 - extends:
+  - "ArCo ontology network https://w3id.org/arco/ontology/arco"
   - "Polifonia Ontology Network https://w3id.org/polifonia/ontology/ontology-network"
 - story:
   - Keoma#1_RestorationAndSoundPractices
 - persona:
   - Keoma_Architect
-bibliography:
-- main-publication:
-- publication:
-- deliverable-document:
 ---
 
 # Bells Ontology
