@@ -24,7 +24,7 @@ contributors:
 - Fiorela Ciroku <https://github.com/FiorelaCiroku>
 related-components:
 - reuses:  
-  - https://w3id.org/arco/ontology/arco
+  - "ArCo Ontology https://w3id.org/arco/ontology/arco"
 - extends: 
 - story:
 - persona:
