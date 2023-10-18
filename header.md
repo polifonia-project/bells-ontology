@@ -12,7 +12,7 @@ project: polifonia-project
 resource: ontology/bells.owl
 release-date: 15/04/2023
 release-number: v1.0
-release-link: https://github.com/polifonia-project/bells-ontology/tag/v1.0
+release-link: https://github.com/polifonia-project/bells-ontology/blob/main/ontology/bells.owl
 doi: 10.5281/zenodo.7919970
 changelog: https://github.com/polifonia-project/bells-ontology/tag/v1.0
 licence:
