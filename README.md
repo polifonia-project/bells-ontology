@@ -11,7 +11,7 @@ The Bells Ontology makes it possible to describe bells, bell towers and bell rin
 Bells, which are the main subject of this module, are described by means of measurable, intrinsic aspects such as weight, materials, conservation status, as well as properties deriving from interpretation situations, such as authorship attribution, dating, execution techniques, and their related objects (e.g. bibliography).
 The Bell ontology modules reuses and extends the ArCo ontology network.
 
-<img width="800" alt="Main diagram for Bells ontology" src="diagrams/Bells2.png">
+<img width="800" alt="Main diagram for Bells ontology" src="diagrams/bells.png">
 
 
 ## Competency questions addressed
